@@ -21,8 +21,11 @@ func main() {
 
 	defer sdl.Quit()
 
-	window, err := sdl.CreateWindow("Hello Triangle", 200, 200, winWidth, winHeight, sdl.WINDOW_OPENGL)
+	sdl.GLSetAttribute(sdl.GL_CONTEXT_PROFILE_MASK, sdl.GL_CONTEXT_PROFILE_CORE)
+	sdl.GLSetAttribute(sdl.GL_CONTEXT_MAJOR_VERSION, 3)
+	sdl.GLSetAttribute(sdl.GL_CONTEXT_MINOR_VERSION, 3)
 
+	window, err := sdl.CreateWindow("Hello Triangle", 200, 200, winWidth, winHeight, sdl.WINDOW_OPENGL)
 	if err != nil {
 		panic(err)
 	}
@@ -35,7 +38,7 @@ func main() {
 	fmt.Println("OpenGL Version", version)
 
 	vertexShaderSource := `
-			#version 300 es
+			#version 330 core
 			layout (location = 0) in vec3 aPos;
 
 			void main()
@@ -61,7 +64,7 @@ func main() {
 	}
 
 	fragmentShaderSource :=
-		`#version 300 es
+		`#version 330 core
 		 precision mediump float;
 		 out vec4 FragColor;
 
