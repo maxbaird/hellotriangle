@@ -2,5 +2,7 @@ github.com/go-gl/gl v0.0.0-20181026044259-55b76b7df9d2 h1:78Hza2KHn2PX1jdydQnffa
 github.com/go-gl/gl v0.0.0-20181026044259-55b76b7df9d2/go.mod h1:482civXOzJJCPzJ4ZOX/pwvXBWSnzD4OKMdH4ClKGbk=
 github.com/maxbaird/gogl v0.0.0-20190223234120-df69d6e35402 h1:IbVGi/jEh2Ogg68vqS2tOEaxwiNh5H2tj6H6sfbsuIs=
 github.com/maxbaird/gogl v0.0.0-20190223234120-df69d6e35402/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
+github.com/maxbaird/gogl v0.0.0-20190224001115-b1fd90930f35 h1:TaM4lzPMzJBO6wxaSscoTVH4qeLQVLQafwTUZdF+l0M=
+github.com/maxbaird/gogl v0.0.0-20190224001115-b1fd90930f35/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
 github.com/veandco/go-sdl2 v0.3.0 h1:IWYkHMp8V3v37NsKjszln8FFnX2+ab0538J371t+rss=
 github.com/veandco/go-sdl2 v0.3.0/go.mod h1:FB+kTpX9YTE+urhYiClnRzpOXbiWgaU3+5F2AB78DPg=

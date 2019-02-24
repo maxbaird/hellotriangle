@@ -37,26 +37,7 @@ func main() {
 
 	fmt.Println("OpenGL Version", gogl.GetVersion())
 
-	fragmentShaderSource :=
-		`#version 330 core
-		 precision mediump float;
-		 out vec4 FragColor;
-
-		 void main()
-		 {
-				FragColor = vec4(1.0f, 0.0f, 0.0f, 1.0f);
-		 }`
-
-	vertexShaderSource := `
-			#version 330 core
-			layout (location = 0) in vec3 aPos;
-
-			void main()
-			{
-				gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);
-			}
-	`
-	shaderProgram := gogl.CreateProgram(vertexShaderSource, fragmentShaderSource)
+	shaderProgram := gogl.CreateProgram("shaders/helloVert.glsl", "shaders/helloFrag.glsl")
 
 	vertices := []float32{
 		-0.5, -0.5, 0.0,
