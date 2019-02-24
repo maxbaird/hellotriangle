@@ -4,5 +4,11 @@ github.com/maxbaird/gogl v0.0.0-20190223234120-df69d6e35402 h1:IbVGi/jEh2Ogg68vq
 github.com/maxbaird/gogl v0.0.0-20190223234120-df69d6e35402/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
 github.com/maxbaird/gogl v0.0.0-20190224001115-b1fd90930f35 h1:TaM4lzPMzJBO6wxaSscoTVH4qeLQVLQafwTUZdF+l0M=
 github.com/maxbaird/gogl v0.0.0-20190224001115-b1fd90930f35/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
+github.com/maxbaird/gogl v0.0.0-20190224111316-93dc097a0ae9 h1:a+p1UyfVgdDA9ILPtnweY2vVE9K4w4DRIbwcda6SKPU=
+github.com/maxbaird/gogl v0.0.0-20190224111316-93dc097a0ae9/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
+github.com/maxbaird/gogl v0.0.0-20190224120849-de3445117070 h1:XxDcyJQOGnyCkyUl/lgTa4/8FejR7u7oVuN4usWzsgg=
+github.com/maxbaird/gogl v0.0.0-20190224120849-de3445117070/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
+github.com/maxbaird/gogl v0.0.0-20190224122332-a784bdfef293 h1:yswhI1hg+AUscaPndCpWGIliIV7armX7Z/cl0hZrbNA=
+github.com/maxbaird/gogl v0.0.0-20190224122332-a784bdfef293/go.mod h1:Y/w0ZQG18EaAeZzhBogdZzs2QztBaSprA2Gbh7Co1zw=
 github.com/veandco/go-sdl2 v0.3.0 h1:IWYkHMp8V3v37NsKjszln8FFnX2+ab0538J371t+rss=
 github.com/veandco/go-sdl2 v0.3.0/go.mod h1:FB+kTpX9YTE+urhYiClnRzpOXbiWgaU3+5F2AB78DPg=

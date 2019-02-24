@@ -37,7 +37,10 @@ func main() {
 
 	fmt.Println("OpenGL Version", gogl.GetVersion())
 
-	shaderProgram := gogl.CreateProgram("shaders/helloVert.glsl", "shaders/helloFrag.glsl")
+	shaderProgram, err := gogl.CreateProgram("shaders/helloVert.glsl", "shaders/helloFrag.glsl")
+	if err != nil {
+		panic(err)
+	}
 
 	vertices := []float32{
 		-0.5, -0.5, 0.0,
@@ -69,5 +72,6 @@ func main() {
 		gl.DrawArrays(gl.TRIANGLES, 0, 3)
 
 		window.GLSwap()
+		gogl.CheckShadersForChanges()
 	}
 }
