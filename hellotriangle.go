@@ -37,7 +37,7 @@ func main() {
 
 	fmt.Println("OpenGL Version", gogl.GetVersion())
 
-	shaderProgram, err := gogl.CreateProgram("shaders/helloVert.glsl", "shaders/helloFrag.glsl")
+	shaderProgram, err := gogl.NewShader("shaders/helloVert.glsl", "shaders/helloFrag.glsl")
 	if err != nil {
 		panic(err)
 	}
@@ -67,11 +67,11 @@ func main() {
 		gl.ClearColor(0.0, 0.0, 0.0, 0.0)
 		gl.Clear(gl.COLOR_BUFFER_BIT)
 
-		gogl.UseProgram(shaderProgram)
+		shaderProgram.Use()
 		gogl.BindVertexArray(VAO)
 		gl.DrawArrays(gl.TRIANGLES, 0, 3)
 
 		window.GLSwap()
-		gogl.CheckShadersForChanges()
+		shaderProgram.CheckShaderForChanges()
 	}
 }
